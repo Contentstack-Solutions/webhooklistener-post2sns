@@ -1,0 +1,48 @@
+{
+  "method": "POST",
+  "body": {
+    "module": "workflow",
+    "api_key": "bltXXX",
+    "data": {
+      "workflow": {
+        "content_type": {
+          "title": "Landing Page",
+          "uid": "landing_page"
+        },
+        "entry": {
+          "title": "Frontpage",
+          "uid": "bltXXX",
+          "version": 3
+        },
+        "locale": {
+          "name": "English - United States",
+          "code": "en-us"
+        },
+        "type": "workflow_stage",
+        "log": {
+          "name": "Complete",
+          "uid": "bltXXX",
+          "updated_at": "2020-04-24T08:57:02.885Z",
+          "updated_by": "bltXXX",
+          "version": 3,
+          "assigned_to": [],
+          "assigned_by_roles": []
+        }
+      }
+    },
+    "event": "update",
+    "triggered_at": "2020-04-24T08:57:02.971Z"
+  },
+  "headers": {
+    "accept": "application/json",
+    "Content-Type": "application/json",
+    "Host": "giulwguwri.execute-api.eu-west-2.amazonaws.com",
+    "region": "EU",
+    "User-Agent": "Contentstack",
+    "X-Amzn-Trace-Id": "Root=1-5ed12a50-5c55450a8d8605ca7e0c4e02",
+    "X-Contentstack-Signature": "4354e152bc404de00160a239731e344757ffe6b1",
+    "X-Forwarded-For": "34.250.54.147",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  }
+}
