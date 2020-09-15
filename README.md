@@ -1,5 +1,5 @@
 # AWS Lambda Webhook Listener - Posts AWS SNS
-## Based on a similar script, webhooklistener-post2Slack
+## Based on a similar script, [webhooklistener-post2Slack](https://github.com/Contentstack-Solutions/webhooklistener-post2slack/)
 ## POC in Python
 
 Using Python 3.8 on [AWS Lambda](https://aws.amazon.com/lambda/).
