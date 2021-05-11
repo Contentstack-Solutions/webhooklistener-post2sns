@@ -4,6 +4,11 @@
 
 Using Python 3.8 on [AWS Lambda](https://aws.amazon.com/lambda/).
 
+Receives a webhook and forwards to AWS SNS service.
+
+**Not officially supported by Contentstack**
+
+Step by step:
 1. Create a Lambda function and an API Gateway in AWS Lambda. Based on these documentation articles:
    * [TUTORIAL: Build an API Gateway API with Lambda Non-Proxy Integration](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-lambda-non-proxy-integration.html).
    * Note: You will need to pass custom headers through the API gateway to the Lambda function for it to work. Exactly like it's done in [this article](https://aws.amazon.com/premiumsupport/knowledge-center/custom-headers-api-gateway-lambda/).
